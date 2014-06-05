@@ -1,0 +1,3 @@
+http://git-smc.com/doc
+https://help.github.com/
+
