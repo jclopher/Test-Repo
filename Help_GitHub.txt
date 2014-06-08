@@ -1,3 +1,71 @@
+Ayuda:
+
 http://git-smc.com/doc
 https://help.github.com/
+https://help.github.com/articles/fork-a-repo
+https://git-smc.com/book/em/Git-Basics-Getting-a...
+
+Primeros Pasos creación REPO:
+
+1. Create Report o realizar un fork.--> Desde GibHut
+
+- Comandos Git-bash:
+
+$git config --list
+
+$ git config --global user.email (jclopez@powerdata.es)
+$ git config --global user.name (PWD322)
+
+GIT Local --> push to --> GITHUB
+GITHUB --> pull from --> GIT Local
+
+
+CREAR REPOSITORIOS:
+
+1.- Desde la Web de GITHUB y a continuación:
+
+Inicicalizar GIT:
+
+$ git remote add origin https://github.com/jclopher/Test-Repo.git
+
+De esta manera ya están sincronizados Git y GITHUB
+
+2.- Hacer un fork de uno ya existente y:
+
+$git clone https://github.com/jclopher/RepoName.git
+
+
+1.- $git pull https://github.com/jclopher/Test-Repo.git master
+
+Segundo paso después de la creación y sincronización: git pull remote branch
+
+2.- $git add .  (add all new files)
+    $git add -u (updates tracking for files that changed names or were deleted)
+    $git add -A (does both of the previous)
+
+
+3.- $git commit -m "message" (Con esto solo actualiza el local REPO no GITHUB)
+
+
+4.- Para actualizar GITHUB
+    $git push
+    $git checkout -b branchname
+    $git branch
+    $git checkout master
+
+Veremos más...
+
+Rtools --> http://cran.r-project.org/bin/windows/Rtools/
+
+Después en RStudio:
+
+- find.packages("devtools")
+
+- install.packages("devtools")
+
+- library ("devtools")
+
+- find_rtools()
+
+
 
